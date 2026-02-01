@@ -13,10 +13,10 @@ npm config set registry https://registry.npm.taobao.org
 ```
 In addition, we also need to install the WeChat Developer Assistant,and register the Wechat Developer Account.  
 
-This repository just front-end code,if want to run this project,you need to [CulturalShop-Server]() download backend code and set up the operating environment.Otherwise,you run the program will have error pages contain.  
+This repository just front-end code,if want to run this project,you need to [CulturalShop-Server](https://github.com/KrisitVvv/CulturalShop-Server) download backend code and set up the operating environment.Otherwise,you run the program will have error pages contain.  
 ## Performance
 The project have an online shop functions,specially I make the program index as Rednote page,this different from other similar software change, has increased the appeal of the product.  
-<p align="center"><image style="width:150px;height:300px" src="image-1.png"/></p
+<p align="center"><image style="width:150px;height:300px" src="image-1.png"/></p>
 
 We support WeChat fast login,it avoids the hassle of registration and also solves the problem of complicated login.  
 <p align="center"><image style="width:150px;height:300px" src="image-2.png"/></p>
