@@ -1,4 +1,4 @@
-# <center>CulturalShop
+# <p align="center">CulturalShop</p>
 ## Infomation
 The project is a wechat mini program,it's base on Uniapp combined with Vue2.This is my university course assignment,It contains bugs and areas that need optimization,if you want, you’re welcome to submit your code through the PR.
 ## Install
@@ -16,10 +16,10 @@ In addition, we also need to install the WeChat Developer Assistant,and register
 This repository just front-end code,if want to run this project,you need to [CulturalShop-Server]() download backend code and set up the operating environment.Otherwise,you run the program will have error pages contain.  
 ## Performance
 The project have an online shop functions,specially I make the program index as Rednote page,this different from other similar software change, has increased the appeal of the product.  
-<center><image style="width:150px;height:300px" src="image-1.png"/>
+<p align="center"><image style="width:150px;height:300px" src="image-1.png"/></p
 
 We support WeChat fast login,it avoids the hassle of registration and also solves the problem of complicated login.  
-<center><image style="width:150px;height:300px" src="image-2.png"/>  
+<p align="center"><image style="width:150px;height:300px" src="image-2.png"/></p>
 
 For different types of goods,we support different types of sorting,and also support search function.In this page,you can see this goods details.
-<center><image style="width:150px;height:300px" src="image-3.png"/>
+<p align="center"><image style="width:150px;height:300px" src="image-3.png"/></p>
