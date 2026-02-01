@@ -1,0 +1,71 @@
+
+.back-btn {
+	position: fixed;
+	top: 50px;
+	left: 15px;
+	width: 32px;
+	height: 32px;
+	border-radius: 5px;
+	background-color: rgba(50, 50, 50, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+.container {
+	background-color: #F8F8F8;
+}
+.price-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 10px;
+}
+.goods_main {
+	background-color: white;
+	border-radius: 16px;
+}
+.goods_info {
+	margin: 8px 0;
+	background-color: white;
+	border-radius: 16px;
+}
+.express_bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 0.5px solid rgba(50, 50, 50, 0.2);
+}
+.infomation {
+	display: flex;
+	flex-direction: column;
+}
+.bottom-bar {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	background-color: #fff;
+	box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+.bottom-bar button {
+	flex: 1;
+	height: 100%;
+	line-height: 60px;
+	border: 0;
+	font-size: 16px;
+	border-radius: 0;
+}
+.cart-btn {
+	background-color: #fff;
+	color: #ff5722;
+	border-right: 1px solid #f2f2f2;
+}
+.buy-btn {
+	background-color: #ff5722;
+	color: #fff;
+}
+

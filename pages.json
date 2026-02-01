@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/index/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/index/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/index/sort",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/goods/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/order/orderdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "文创商城",
+		"navigationBarBackgroundColor": "#e4e4e4",
+		"backgroundColor": "#e4e4e4",
+		"backgroundTextStyle": "dark"
+	},
+	"tabBar": {
+		"backgroundColor": "#f8f8f8",
+	    "color": "#7A7E83",
+	    "selectedColor": "#007AFF",
+	    "borderStyle":"white",
+	    "list": [{
+	      "selectedIconPath": "/static/list_active.png",
+	      "iconPath": "/static/list.png",
+	      "pagePath": "pages/index/index",
+	      "text": "首页"
+	    }, {
+		  "selectedIconPath": "/static/grid_active.png",
+		  "iconPath": "/static/grid.png",
+		  "pagePath": "pages/index/sort",
+		  "text": "分类"
+		},{
+	      "selectedIconPath": "/static/order.png",
+	      "iconPath": "/static/order-active.png",
+	      "pagePath": "pages/index/order",
+	      "text": "订单"
+	    }, {
+	      "selectedIconPath": "/static/me_active.png",
+	      "iconPath": "/static/me.png",
+	      "pagePath": "pages/index/my",
+	      "text": "我的"
+	    }]
+	  },
+	"uniIdRouter": {}
+}

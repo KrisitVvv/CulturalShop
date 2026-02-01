@@ -1,0 +1,35 @@
+
+.titlebox {
+	margin-top: 12.6%;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.category-page {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+.orderbody {
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	height: 100px;
+	margin: 10px 2.5%;
+	background-color: white;
+	border-radius: 16px;
+	justify-content: space-between;
+	align-items: center;
+}
+.orderinfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 10px;
+}
+
