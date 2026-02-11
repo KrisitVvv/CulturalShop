@@ -14,6 +14,8 @@ npm config set registry https://registry.npm.taobao.org
 In addition, we also need to install the WeChat Developer Assistant,and register the Wechat Developer Account.  
 
 This repository just front-end code,if want to run this project,you need to [CulturalShop-Server](https://github.com/KrisitVvv/CulturalShop-Server) download backend code and set up the operating environment.Otherwise,you run the program will have error pages contain.  
+## How to use
+This is a typical front-end and back-end separation application,you need to keep the backend server running.So in our test,you should start the service at first,this step I used IDEA to running.And then open HbuilderX to running for WeChat application,if everything goes as planned, you should be able to see the correct image. 
 ## Performance
 The project have an online shop functions,specially I make the program index as Rednote page,this different from other similar software change, has increased the appeal of the product.  
 <p align="center"><image style="width:150px;height:300px" src="image-1.png"/></p>
